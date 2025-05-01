@@ -392,3 +392,40 @@ searchBox.addEventListener('input', () => {
         }
     });
 });
+const postButton = document.getElementById('post-comment-btn'); 
+        const commentInput = document.getElementById('comment-input'); 
+        const commentList = document.getElementById('comment-list');    
+       
+        postButton.addEventListener('click', function() {
+            const commentText = commentInput.value.trim();  
+           
+            if (commentText) {
+                
+                const newComment = document.createElement('li');
+                newComment.classList.add('comment-item'); g
+                newComment.textContent = commentText;     
+
+               t
+                commentList.appendChild(newComment);
+
+                commentInput.value = '';
+                commentInput.classList.remove('empty');  // Remove empty input border color
+            } else {
+                
+                commentInput.classList.add('empty');
+                alert("Please write something before posting a comment.");
+            }
+        });
+        const openBtn=document.getElementById("openModel");
+        const closeBtn=document.getElementById("closeModal");
+        const modal = document.getElementById("modal");
+     openBtn.addEventListener("click",() =>{
+        modal.classList.add("active");
+     })
+     closeBtn.addEventListener("click",() =>{
+        modal.classList.remove("active");
+     })
+    </script>
+                
+</body>
+</html>
