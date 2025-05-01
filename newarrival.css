@@ -215,3 +215,54 @@ button:hover {
     color: #eee; 
     padding: 5px;
 }
+.fa-magnifying-glass{
+    padding-right: 20px;
+}
+.sidebar-right{
+    flex: 1;
+    border-radius: 3px;
+    height: 92vh;
+    padding: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 9px;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.glass:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.content-wrapper{
+    display: flex;
+    width: 100%;
+}
+.data{
+    flex: 3;
+    border-radius: 3px;
+    height: 92vh;
+    overflow-y: auto;
+    margin-right: 20px
+
+}
+.bg-comment-box {
+    border-radius: 10px;
+  }
+  
+  #comment-input {
+    border-radius: 8px;
+  }
+  
+  #submit-comment {
+    border: none;
+  }
+
