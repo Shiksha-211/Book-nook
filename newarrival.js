@@ -141,3 +141,36 @@ function loadComments() {
     // Display the comments
     displayComments(comments);
 }
+function displayComments(comments) {
+    const commentList = document.getElementById('comment-list');
+    commentList.innerHTML = '';
+
+    comments.forEach((comment, index) => {
+        const commentItem = document.createElement('li');
+        commentItem.textContent = comment;
+
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.setAttribute('data-index', index);
+        deleteButton.addEventListener('click', deleteComment);
+
+        commentItem.appendChild(deleteButton);
+        commentList.appendChild(commentItem);
+    });
+}
+
+function deleteComment(event) {
+    const index = event.target.getAttribute('data-index');
+
+    // Get the existing comments from local storage
+    const comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+    // Remove the comment at the specified index
+    comments.splice(index, 1);
+
+    // Save the updated comments array to local storage
+    localStorage.setItem('comments', JSON.stringify(comments));
+
+    // Display the updated list of comments
+    displayComments(comments);
+}
