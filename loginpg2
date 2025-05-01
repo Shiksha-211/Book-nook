@@ -134,7 +134,8 @@
 
             return true;
         }
-function validateSignUpForm() {
+
+        function validateSignUpForm() {
             const signupEmail = document.getElementById("signup-email");
             const signupEmailError = document.getElementById("signup-email-error");
             const isEmailValid = validateEmail(signupEmail.value);
