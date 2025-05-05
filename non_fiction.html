@@ -397,11 +397,8 @@ searchBox.addEventListener('input', () => {
         const commentInput = document.getElementById('comment-input');  // Textarea for input
         const commentList = document.getElementById('comment-list');    // List to display comments
 
-        // Add event listener to the button
         postButton.addEventListener('click', function() {
-            const commentText = commentInput.value.trim();  // Get the comment text and remove extra spaces
-
-            // Check if the input is not empty
+            const commentText = commentInput.value.trim();  
             if (commentText) {
                 const newComment = document.createElement('li');
                 newComment.classList.add('comment-item'); 
