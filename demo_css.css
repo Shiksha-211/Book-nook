@@ -1,4 +1,3 @@
-/* General container and layout styles */
 .container {
     display: flex;
     height: 100vh;
@@ -8,6 +7,8 @@
             color: #A9A9A9;
             padding: 10px 0;
             width: 900px;
+
+            
         }
 
         .header-container {
@@ -16,7 +17,7 @@
             align-items: center;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 21px;
         }
 
         .logo a {
@@ -35,12 +36,11 @@
     flex: 3;
     margin-left: 20px;
 }
-/*navbar*/
 .header {
     background: #333;
     color: #fff;
     padding: 10px 0;
-    width: 1600px;
+    width: 1601px;
     height: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -139,7 +139,7 @@
     margin-bottom: 20px;
 }
 
-/*modal*/
+
 .modal{
     background-color: #e9ecef;
     opacity:0;
@@ -156,9 +156,11 @@
     justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* modal.open */
 .modal.open{
     opacity: 1;
     z-index: 999;
+
 
 }
 button:active{
@@ -180,7 +182,7 @@ button:active{
     margin:10px 0;
 }
 .modal.active {
-    display: flex; /* Display modal when active */
+    display: flex; 
   }
   #closeModal {
     background-color: #f44336; /* Red color */
