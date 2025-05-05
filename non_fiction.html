@@ -411,9 +411,8 @@ searchBox.addEventListener('input', () => {
                 // Append the new comment to the comment list
                 commentList.appendChild(newComment);
 
-                // Clear the input after posting
                 commentInput.value = '';
-                commentInput.classList.remove('empty');  // Remove empty input border color
+                commentInput.classList.remove('empty');  
             } else {
                 commentInput.classList.add('empty');
                 alert("Please write something before posting a comment.");
