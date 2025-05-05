@@ -343,7 +343,7 @@
                         <!-- List to display posted comments -->
                         <ul id="comment-list" class="comment-list"></ul>
                     </div>
-  </div></div></div>
+</div></div></div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div></div>
 <!--Footer-->
@@ -391,11 +391,9 @@ searchBox.addEventListener('input', () => {
         }
     });
 });
-
-        // Get elements from the DOM
-        const postButton = document.getElementById('post-comment-btn');  // Post comment button
-        const commentInput = document.getElementById('comment-input');  // Textarea for input
-        const commentList = document.getElementById('comment-list');    // List to display comments
+        const postButton = document.getElementById('post-comment-btn');  
+        const commentInput = document.getElementById('comment-input'); 
+        const commentList = document.getElementById('comment-list');    
 
         postButton.addEventListener('click', function() {
             const commentText = commentInput.value.trim();  
