@@ -403,12 +403,10 @@ searchBox.addEventListener('input', () => {
 
             // Check if the input is not empty
             if (commentText) {
-                // Create a new <li> element for the comment
                 const newComment = document.createElement('li');
                 newComment.classList.add('comment-item'); 
                 newComment.textContent = commentText;    
 
-                // Append the new comment to the comment list
                 commentList.appendChild(newComment);
 
                 commentInput.value = '';
