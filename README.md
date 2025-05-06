@@ -1,6 +1,6 @@
 # 📚 BookNook - Online Bookstore Website
 
-"BookNook" is a free and user-friendly online bookstore website built as a group project. The platform allows users to browse, search, and purchase books from various genres with a clean and responsive design.
+"BookNook" is a free and user-friendly online bookstore website built as a group project. The platform allows users to browse, search and purchase books from various genres with a clean and responsive design.
 
 ## 🚀 Features
 
