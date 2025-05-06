@@ -1,0 +1,25 @@
+name: Book-nook
+version: 2.47.1
+environment:
+          -development 
+          -production
+description: 
+    BookNook is a free and user-friendly online bookstore website built as a group project.
+    The platform allows users to browse, search, and purchase books from various genres 
+    with a clean and responsive design.
+  features:
+    - Browse a collection of books by categories
+    - Search functionality to find books quickly
+    - Book details with pricing and descriptions
+    - Add to cart and checkout interface
+    - Responsive design for mobile and desktop
+    - Simple, elegant UI for a pleasant reading experience
+  tech_stack:
+    - HTML5
+    - CSS3
+    - JavaScript (Vanilla)
+  team_members:
+    - Shiksha
+    - Sanchi Sharma
+    - Roshnee
+    - Himanshu
