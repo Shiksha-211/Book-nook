@@ -263,6 +263,7 @@ input{
   }
   
   #submit-comment {
-    border: none;
-  }
-
+    border:none;
+    border-radius: 8px;
+    background-color: orangered;    
+  }
