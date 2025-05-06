@@ -1,3 +1,4 @@
+// feautured page javascript
 const product = [
     {
         id: 0,
